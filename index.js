@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const port = 3333;
-const match = require("./data/match.json");
+const match = require("./match.json");
 require("dotenv").config();
 
 // Database Details
